@@ -38,4 +38,5 @@ app.MapControllers();
 //Add Map Hub
 app.MapHub<HubProvider>("/Hub");
 
+
 app.Run();
