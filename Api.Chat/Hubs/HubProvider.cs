@@ -10,3 +10,4 @@ namespace Api.Chat.Hubs
             await Clients.All.ReceivedMessage(message);
         }
     }
+}

@@ -25,8 +25,8 @@ if (app.Environment.IsDevelopment())
 app.UseCors(cors =>
 {
     cors.AllowAnyMethod()
-    .AllowAnyHeader()
-    .AllowCredentials().WithOrigins("http:/localhost:8080");
+        .AllowAnyHeader()
+        .AllowCredentials().WithOrigins("http://localhost:8080");
 });
 
 app.UseHttpsRedirection();
